@@ -29,7 +29,7 @@ public class FirstTest extends Base {
 		Learning learning = new Learning(Base.driver);
 		ShoppingCart shoppingCart = new ShoppingCart(Base.driver);
 		
-		loginPage.login("jaikukreja1996@gmail.com", "Temp@123");
+		loginPage.login("", "");
 		learning.searchCourse("The Complete JavaScript Course 2022: From Zero to Expert!");
 		learning.addCourseToCart();
 		shoppingCart.moveCourseToWishlist();
